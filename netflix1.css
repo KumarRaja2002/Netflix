@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+h2 {
+    cursor: pointer;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+    color: blue;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+h2:hover {
+    color: blueviolet;
+}
+
+h6 {
+    font-weight: normal;
+    color: #666;
+}
+
+/* Container styling */
+.manadeyidantha {
+    margin: 20px;
+    padding-left: 10px;
+    color: black;
+}
+
+/* Content containers */
+.container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: small;
+    padding: 20px 10px;
+}
+
+.subcontainer,
+.subcontainertwo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 200px;
+}
+
+/* Section styling */
+.suchione,
+.suchitwo,
+.suchithree,
+.chantione,
+.chantitwo,
+.chantiithree {
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.suchione:hover,
+.suchitwo:hover,
+.suchithree:hover,
+.chantione:hover,
+.chantitwo:hover,
+.chantiithree:hover {
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.one1 {
+    color: black;
+    font-size: 0.9em;
+}
+
+/* Heading styling */
+h3 {
+    font-size: 1em;
+    margin: 0;
+    color: #333;
+}
+
+/* Last section styling */
+.last {
+    padding: 20px;
+    margin: 20px 0;
+
+    border-radius: 8px;
+}
+
+.last1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.lastbutnot {
+    display: flex;
+    gap: 20px;
+}
+
+.lastbutnot button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    font-size: 0.9em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.lastbutnot button:hover {
+    background-color: #0056b3;
+}
+
+.lp {
+    background-color: #DBE2E9;
+    padding: 5px;
+}
+
+.ty {
+    padding: 5px;
+}
+
+.sdf {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
